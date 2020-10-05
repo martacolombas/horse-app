@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePicture from './profile-pic';
+import Avatar from './avatar.js';
 import Title from './title';
 import pic from './test-pics/beauty-unicorn.png';
 const text = 'This is my name for now';
@@ -7,7 +7,7 @@ const text = 'This is my name for now';
 function Header() {
   return (
     <div>
-      <ProfilePicture image={pic}></ProfilePicture>
+      <Avatar image={pic}></Avatar>
       <Title text={text}></Title>
     </div>
   );

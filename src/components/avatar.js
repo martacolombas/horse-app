@@ -1,8 +1,9 @@
 import React from 'react';
+import cx from 'classnames';
 
-function ProfilePicture({ image }) {
+function Avatar({ image, className }) {
   return (
-    <div>
+    <div className={cx('Avatar', className)}>
       {' '}
       Here goes my profile imageture
       <img src={image} alt="" />
@@ -10,4 +11,4 @@ function ProfilePicture({ image }) {
   );
 }
 
-export default ProfilePicture;
+export default Avatar;

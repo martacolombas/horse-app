@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from './header.js';
 import Body from './body';
+import cx from 'classnames';
+import './card.css';
 
-function Card() {
+function Card({ cardInfo, className }) {
   return (
-    <div>
+    <div className={cx('Card', className)}>
       <Header></Header>
       <Body></Body>
     </div>
