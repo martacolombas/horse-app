@@ -1,9 +1,11 @@
 import React from 'react';
+import cx from 'classnames';
+import './title.css';
 
-function Title({ text }) {
+function Title({ text, className }) {
   return (
-    <div>
-      <h1>{text}</h1>
+    <div className={cx('Title', className)}>
+      <p>{text}</p>
     </div>
   );
 }

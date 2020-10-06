@@ -4,9 +4,7 @@ import cx from 'classnames';
 function Avatar({ image, className }) {
   return (
     <div className={cx('Avatar', className)}>
-      {' '}
-      Here goes my profile imageture
-      <img src={image} alt="" />
+      <img src={image} alt="" width="25px" />
     </div>
   );
 }

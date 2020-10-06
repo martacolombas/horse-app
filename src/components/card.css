@@ -2,4 +2,7 @@
   background-color: red;
   display: flex;
   padding: 4px;
+  flex-direction: column;
+  order: 4;
+  margin: 8px;
 }

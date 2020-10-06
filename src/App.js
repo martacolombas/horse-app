@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Card from './components/card';
+import CardList from './components/cardList';
+let cards = [1, 2, 3];
 
 function App() {
   return (
     <div className="App">
-      This is me changing again and coding
-      <Card></Card>
+      <CardList cards={cards}></CardList>
     </div>
   );
 }
