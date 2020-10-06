@@ -1,0 +1,9 @@
+.DetailsBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.DetailsBody-session {
+  display: flex;
+  justify-content: space-between;
+}

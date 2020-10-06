@@ -1,7 +1,7 @@
 .Card {
   background-color: red;
   display: flex;
-  padding: 4px;
+  padding: 16px;
   flex-direction: column;
   order: 4;
   margin: 8px;
