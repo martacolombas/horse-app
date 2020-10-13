@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import CardList from './components/cardList';
-let cards = [1, 2, 3];
+let cards = [1];
 
 function App() {
   return (

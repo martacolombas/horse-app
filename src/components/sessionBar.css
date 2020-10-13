@@ -1,0 +1,6 @@
+.SessionBar {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  padding-top: 8px;
+}

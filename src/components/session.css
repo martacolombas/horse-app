@@ -1,0 +1,6 @@
+.Session {
+  background-color: blue;
+  flex-grow: 1;
+  height: 100%;
+  max-width: 8%;
+}

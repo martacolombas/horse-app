@@ -5,4 +5,5 @@
   flex-direction: column;
   order: 4;
   margin: 8px;
+  height: 100%;
 }

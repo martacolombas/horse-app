@@ -2,10 +2,10 @@ import React from 'react';
 import cx from 'classnames';
 import './detailsBody.css';
 
-function DetailsBody({ className, sessions }) {
+function DetailsBody({ className, pastSessions }) {
   return (
     <div className={cx('DetailsBody', className)}>
-      {sessions.map((session) => {
+      {pastSessions.map((session) => {
         return (
           <div className="DetailsBody-session">
             <p>Sammy</p>
