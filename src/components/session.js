@@ -6,7 +6,7 @@ function Session({ className, sessionInfo, completeSession }) {
   return (
     <div
       className={cx('Session', className)}
-      idx={sessionInfo[0]}
+      idx={sessionInfo.id}
       onClick={() => completeSession(sessionInfo)}></div>
   );
 }
